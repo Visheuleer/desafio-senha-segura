@@ -4,7 +4,7 @@ import services.password_services as service
 router = APIRouter()
 
 
-@router.get('/validate-password', status_code=status.HTTP_200_OK)
+@router.post('/validate-password', status_code=status.HTTP_200_OK)
 def validate_password(password: str):
     if not service.check_length(password):
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
