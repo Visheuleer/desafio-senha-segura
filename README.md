@@ -3,7 +3,7 @@
 
 ## Descrição
 
-O [desafio](https://github.com/backend-br/desafios/blob/master/secure-password/PROBLEM.md) consiste em criar uma API RESTful com um endpoint para validação de senhas, seguindo alguns critérios.
+O [desafio](https://github.com/backend-br/desafios/blob/master/secure-password/PROBLEM.md) consiste em criar um microserviço para validação de senhas, seguindo alguns critérios descritos no repositório do desafio.
 
 
 ## Tecnologias
